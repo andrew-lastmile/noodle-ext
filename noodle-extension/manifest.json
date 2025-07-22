@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "noodle",
+  "version": "1.0",
+  "description": "Ask questions and get AI answers using your accumulated memory context.",
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "notifications",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://api.openai.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["noodle-ui.css"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/ramen_16px.png",
+      "32": "assets/ramen_32px.png"
+    }
+  },
+  "icons": {
+    "16": "assets/ramen_16px.png",
+    "32": "assets/ramen_32px.png",
+    "48": "assets/ramen_48px.png",
+    "128": "assets/ramen_128px.png"
+  }
+}

@@ -1,0 +1,51 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node.js (if using build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+*.log
+logs/
+
+# Chrome Extension Development
+*.crx
+*.pem
+key.pem
+
+# API Keys and Secrets
+config.js
+secrets.json
+.env
+.env.local
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+
+# Archive Files
+*.zip
+*.tar
+*.tar.gz
+
+# Backup Files
+*.bak
+*.backup
+*~

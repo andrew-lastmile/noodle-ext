@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "memorize",
+  "version": "1.0",
+  "description": "Add web pages and selections to your memory buffer for AI context.",
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "notifications",
+    "scripting",
+    "downloads",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "assets/soup_pot_16px.png",
+      "32": "assets/soup_pot_32px.png"
+    }
+  },
+  "icons": {
+    "16": "assets/soup_pot_16px.png",
+    "32": "assets/soup_pot_32px.png",
+    "48": "assets/soup_pot_48px.png",
+    "128": "assets/soup_pot_128px.png"
+  }
+}
