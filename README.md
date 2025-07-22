@@ -58,10 +58,11 @@ Each extension is self-contained with its own manifest, background script, and a
 
 ## Upcoming Features
 
-- Better support for multimedia (images)
-- Remote memory storage for access to memories across instances
-- Collection of memories
-- GraphDB for better retrieval and search
+- [Better personalization] Better support for multimedia (images)
+- [Better personalization] Remote memory storage for access to memories across instances
+- [Better personalization] Collection of memories
+- [Better personalization] GraphDB for better retrieval and search
+- [Latency] memory compaction
 
 ## Privacy
 
