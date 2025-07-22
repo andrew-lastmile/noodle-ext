@@ -1,4 +1,4 @@
-# Noodle Extensions
+# Noodle extensions
 
 A pair of Chrome extensions that work together to create an AI-powered memory system for your browsing.
 
@@ -55,6 +55,13 @@ Both extensions use a cohesive color theme:
 ## Development
 
 Each extension is self-contained with its own manifest, background script, and assets. The extensions communicate through shared localStorage rather than Chrome extension messaging APIs.
+
+## Upcoming Features
+
+- Better support for multimedia (images)
+- Remote memory storage for access to memories across instances
+- Collection of memories
+- GraphDB for better retrieval and search
 
 ## Privacy
 
